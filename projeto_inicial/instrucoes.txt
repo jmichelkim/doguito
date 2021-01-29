@@ -1,0 +1,7 @@
+Para que o projeto funcione:
+
+projetos 1, 2 e 3 devem ter:
+
+1. npm install na pasta adminxxx.
+2. json-server --watch db.json (api mocada)
+3. se for preciso tem que instalar o npm install -g json-server
