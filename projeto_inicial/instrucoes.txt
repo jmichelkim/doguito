@@ -5,3 +5,7 @@ projetos 1, 2 e 3 devem ter:
 1. npm install na pasta adminxxx.
 2. json-server --watch db.json (api mocada)
 3. se for preciso tem que instalar o npm install -g json-server
+
+4. para o 05_admin-get-api-cors-e-uso-de-modulos:
+Para resolver o cors, utilizar o npm install -g browser-sync e roda ele na pasta anterior a admin da seguite forma:
+browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html, lembre-se de subir tamém o json-server (api mocada)
