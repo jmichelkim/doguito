@@ -1,0 +1,25 @@
+Para que o projeto funcione:
+
+Executar os seguintes comandos:
+1. npm install na pasta adminxxx.
+2. json-server --watch db.json --host 127.0.0.1(api mocada) na pasta admin(para utilizar o banco de dados json)
+3. Se for preciso tem que instalar o npm install -g json-server
+4. npm install -g browser-sync e rodar ele na PASTA ANTERIOR a admin da seguite forma:
+browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html. (Para não dar erro de cors)
+5. O db.json e o browser-sync devem subir em terminais diferentes.
+
+
+Este projeto é do curos da Alura: JS na web: CRUD com JavaScript assíncrono
+
+Com o instrutor: Felipe Nascimento
+
+Faça esse curso de JavaScript e:
+Crie um CRUD utilizando o método fetch e os verbos HTTP
+Aprenda a consumir dados de uma API e exibir no seu front-end
+Entenda como utilizar o método fetch para consumir dados de uma API
+Manipule os verbos HTTP através do método fetch
+Aprenda como funcionam as promises no JavaScript
+
+Link do curso: https://cursos.alura.com.br/course/javascript-crud-assincrono
+
+Git do projeto do curso do insrutor: https://github.com/alura-cursos/2016-JS-na-web-crud-com-JavaScript-assincrono/blob/projeto_final/projeto_final/admin/controller/cadastraClientes-controller.js
